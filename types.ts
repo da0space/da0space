@@ -24,3 +24,10 @@ export interface Proposal {
   author: string;
   quorum: number;
 }
+
+export interface Vote {
+  id: string;
+  voterAddress: string;
+  choiceName: string;
+  createdAt: string;
+}
